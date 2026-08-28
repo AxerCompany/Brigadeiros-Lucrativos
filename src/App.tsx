@@ -336,56 +336,56 @@ const AppTechnology = () => {
           {[
             { 
               title: "💼 COMECE COM R$ 50", 
-              desc: "Comece com pouco investimento, usando utensílios que você já tem em casa.", 
+              desc: "Veja como começar do zero com pouco investimento, usando utensílios que você já tem em casa.", 
               icon: DollarSign,
               color: "#C98A3D"
             },
             { 
               title: "⚡ BRIGADEIROS SEM FOGO", 
-              desc: "Receitas práticas e rápidas para preparar brigadeiros sem precisar levar ao fogo, economizando tempo e facilitando a produção no dia a dia.", 
+              desc: "Receitas práticas e rápidas para produzir sem ligar o fogão e ganhar mais agilidade no dia a dia.", 
               icon: Zap,
               color: "#C93F5C"
             },
             { 
-              title: "🍫 RECEITAS QUE MAIS VENDEM", 
-              desc: "Acesse sabores prontos para começar, com ingredientes, modo de preparo, rendimento e lista de compras.", 
+              title: "🍫 RECEITAS", 
+              desc: "Tenha acesso a sabores prontos com preparo, peso e rendimento para facilitar sua produção.", 
               icon: Sparkles,
               color: "#C98A3D"
             },
             { 
-              title: "💰 QUANTO COBRAR", 
-              desc: "Descubra quanto cobrar antes de fazer os brigadeiros, mantendo sempre seu lucro garantido, uma calculadora feita para confeiteiras e para garantir que sempre vai lucrar.", 
+              title: "💰 CALCULADORAS", 
+              desc: "Calcule custo, preço, lucro, caixas, encomendas e metas sem precisar fazer contas no achismo.", 
               icon: Calculator,
               color: "#C93F5C"
             },
             { 
-              title: "📱 TEXTOS PARA VENDER", 
-              desc: "Mensagens prontas para divulgar seus brigadeiros no WhatsApp, Instagram e status, sem ficar travada pensando no que escrever.", 
+              title: "🛒 LISTA DE COMPRAS", 
+              desc: "Saiba exatamente o que comprar e em quais quantidades para produzir sem desperdício.", 
+              icon: ShoppingBag,
+              color: "#C98A3D"
+            },
+            { 
+              title: "🎁 KITS E CAIXAS", 
+              desc: "Veja formatos prontos para montar kits e caixas que aumentam o valor de cada pedido.", 
+              icon: Gift,
+              color: "#C93F5C"
+            },
+            { 
+              title: "📱 VENDAS E DIVULGAÇÃO", 
+              desc: "Receba textos prontos para divulgar seus brigadeiros no WhatsApp, Instagram e status.", 
               icon: Smartphone,
               color: "#C98A3D"
             },
             { 
-              title: "✨ PONTO PERFEITO SEM ERRO", 
-              desc: "Receitas práticas para preparar de forma simples, acertando o ponto de enrolar e de bico sem queimar e sem perder insumos.", 
-              icon: CheckCircle,
-              color: "#C93F5C"
-            },
-            { 
-              title: "🎯 SIMULADOR DE META", 
-              desc: "Defina quanto deseja ganhar e veja uma estimativa de quantos brigadeiros ou caixas precisa vender.", 
+              title: "🎯 SIMULADOR DE LUCRO", 
+              desc: "Veja quantos brigadeiros ou caixas você precisa vender para alcançar sua meta.", 
               icon: ArrowUpRight,
-              color: "#C98A3D"
-            },
-            { 
-              title: "🛵 ENTREGAS COM SEGURANÇA", 
-              desc: "Aprenda cuidados simples para armazenar, transportar e entregar seus brigadeiros com mais organização.", 
-              icon: Shield,
               color: "#C93F5C"
             },
             { 
-              title: "🛒 ONDE COMPRAR BARATO", 
-              desc: "Tenha uma lista com lugares e ideias para comprar embalagens, ingredientes e materiais gastando menos.", 
-              icon: ShoppingBag,
+              title: "📅 DATAS LUCRATIVAS", 
+              desc: "Aproveite as melhores oportunidades do ano para criar ofertas e vender mais.", 
+              icon: Calendar,
               color: "#C98A3D"
             },
           ].map((f, i) => (
