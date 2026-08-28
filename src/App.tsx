@@ -522,15 +522,18 @@ const Results = () => {
             className="flex gap-4 md:gap-6 overflow-x-auto pb-8 scrollbar-hide snap-x snap-mandatory"
           >
             {[
-              "https://i.postimg.cc/rp7gdFhv/223b6ea87913fc844141fd4857943d35.webp",
-              "https://i.postimg.cc/0NhZ62WR/53d1e5045687253625690fb04f5174b6.webp",
-              "https://i.postimg.cc/s2bKBDn8/5c53c3f17c5ba07458b11c4f9460b26d.webp",
-              "https://i.postimg.cc/vmCX1Hqd/616feacb9ce31a637c00819ecb12c167.webp",
-              "https://i.postimg.cc/nLNTscRx/82107315cb6c54e5a2214782259f8162.webp",
-              "https://i.postimg.cc/cJPTK490/a1fcf82e6835086725b475604a6887eb.webp",
-              "https://i.postimg.cc/fb153T2w/c41806efb28fd408c8727a2d0478ad8a.webp",
-              "https://i.postimg.cc/j5Ncy09p/e3a532b93ebb6133cbb254e7c7d14f85.webp",
-              "https://i.postimg.cc/cHYhfyjV/feb9465a437360209269ea829f6fc1f7.webp"
+              "https://i.postimg.cc/vHvSMmX1/00b7ca8bdf9b5c7acd1c54fafa55ee2b.webp",
+              "https://i.postimg.cc/Jz4YhWdT/D-NQ-NP-2X-602885-MLB106292855494-022026-F-kit-100-potes-quadrado-embalagem-doces-bolos-descartavel.webp",
+              "https://i.postimg.cc/W1bY4PfC/e8b4aa73246d0d64054de48f1126ee82.webp",
+              "https://i.postimg.cc/vZH2mdSX/b6e42ab6f7320235274cb1a19959eb82.webp",
+              "https://i.postimg.cc/HksvLCPK/e764a295af78c4a163fe4b8f8c1ba721.webp",
+              "https://i.postimg.cc/6p5bQNmJ/f5c380eb4e88a5c1bd4176acf3920c49.webp",
+              "https://i.postimg.cc/K8vpYysp/396576e5edd5d55ca8b4fcf7c03d9331.webp",
+              "https://i.postimg.cc/QdxYMrnp/32d3cb9ef91c5589f8c5004359f018de.webp",
+              "https://i.postimg.cc/htPZGq3Y/D-NQ-NP-2X-972298-MLB94547371144-102025-F-100un-embalagem-4-brigadeiros-descartavel-bp643.webp",
+              "https://i.postimg.cc/htPZGq3b/1cf6a00ff0c5d9097e8d3f174f971721.webp",
+              "https://i.postimg.cc/Jz4YhWdZ/101a10fb83b7d923b5fefb8add5a2ab5.webp",
+              "https://i.postimg.cc/2S895fXx/2b3f0a3b800402ff1cb97aea4ced0ead.webp"
             ].map((url, i) => (
               <div key={i} className="min-w-[260px] md:min-w-[300px] aspect-[9/16] bg-[#5A2D25] rounded-2xl overflow-hidden snap-center shadow-xl border border-[#C98A3D]/25">
                 <img 
