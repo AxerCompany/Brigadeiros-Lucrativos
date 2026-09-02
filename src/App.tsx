@@ -306,23 +306,23 @@ const AppTechnology = () => {
           className="flex overflow-x-auto pb-4 md:pb-12 scrollbar-hide snap-x snap-mandatory"
         >
           {[
-            "https://i.postimg.cc/qRfYPLdB/Whats-App-Image-2026-06-23-at-16-24-20.webp",
-            "https://i.postimg.cc/Ss05Brpn/Whats-App-Image-2026-06-23-at-16-24-21.webp",
-            "https://i.postimg.cc/V6yTxRcN/Whats-App-Image-2026-06-23-at-16-24-21-(1).webp",
-            "https://i.postimg.cc/ZRkgGch0/Whats-App-Image-2026-06-23-at-16-24-21-(2).webp",
-            "https://i.postimg.cc/DZVD9gKZ/Whats-App-Image-2026-06-23-at-16-24-21-(3).webp",
-            "https://i.postimg.cc/PxGcg4kJ/Whats-App-Image-2026-06-23-at-16-24-21-(4).webp",
-            "https://i.postimg.cc/Y9cV53wh/Whats-App-Image-2026-06-23-at-16-24-21-(5).webp",
-            "https://i.postimg.cc/KzXV6NyP/Whats-App-Image-2026-06-23-at-16-24-22.webp",
-            "https://i.postimg.cc/pTN7wZth/Whats-App-Image-2026-06-23-at-16-24-22-(1).webp",
-            "https://i.postimg.cc/9M3S6pjw/Whats-App-Image-2026-06-23-at-16-24-22-(2).webp",
-            "https://i.postimg.cc/50cGh3MC/Whats-App-Image-2026-06-23-at-16-24-22-(3).webp",
-            "https://i.postimg.cc/qRfYPLdy/Whats-App-Image-2026-06-23-at-16-24-22-(5).webp",
-            "https://i.postimg.cc/rm6bBJL5/Whats-App-Image-2026-06-23-at-16-24-22-(6).webp",
-            "https://i.postimg.cc/d1MXbBK9/Whats-App-Image-2026-06-23-at-16-24-23.webp",
-            "https://i.postimg.cc/mDxqvwG3/Whats-App-Image-2026-06-23-at-16-24-23-(1).webp",
-            "https://i.postimg.cc/pTN7wZtY/Whats-App-Image-2026-06-23-at-16-24-23-(2).webp",
-            "https://i.postimg.cc/NM1VBHg2/Whats-App-Image-2026-06-23-at-16-24-23-(3).webp"
+            "https://i.postimg.cc/sgwbk4BV/Whats-App-Image-2026-09-02-at-19-25-47.webp",
+            "https://i.postimg.cc/Df6QdjRX/Whats-App-Image-2026-09-02-at-19-51-51.webp",
+            "https://i.postimg.cc/3xnzsFy3/Whats-App-Image-2026-09-02-at-19-25-47-(1).webp",
+            "https://i.postimg.cc/9QJs6Y4V/Whats-App-Image-2026-09-02-at-19-25-47-(2).webp",
+            "https://i.postimg.cc/9QJs6Y4C/Whats-App-Image-2026-09-02-at-19-25-47-(3).webp",
+            "https://i.postimg.cc/13JbkrgR/Whats-App-Image-2026-09-02-at-19-25-48.webp",
+            "https://i.postimg.cc/BnMRrB8t/Whats-App-Image-2026-09-02-at-19-25-49.webp",
+            "https://i.postimg.cc/T3CBzJyY/Whats-App-Image-2026-09-02-at-19-25-49-(1).webp",
+            "https://i.postimg.cc/3xnzsFyx/Whats-App-Image-2026-09-02-at-19-25-49-(2).webp",
+            "https://i.postimg.cc/zG04sFLf/Whats-App-Image-2026-09-02-at-19-25-49-(3).webp",
+            "https://i.postimg.cc/8ztx2mF5/Whats-App-Image-2026-09-02-at-19-25-49-(4).webp",
+            "https://i.postimg.cc/sgwbk4Bx/Whats-App-Image-2026-09-02-at-19-25-49-(5).webp",
+            "https://i.postimg.cc/pLq3wJ9n/Whats-App-Image-2026-09-02-at-19-25-50.webp",
+            "https://i.postimg.cc/L8NGc3qJ/Whats-App-Image-2026-09-02-at-19-25-50-(1).webp",
+            "https://i.postimg.cc/L8NGc3qq/Whats-App-Image-2026-09-02-at-19-25-50-(2).webp",
+            "https://i.postimg.cc/P520gQLp/Whats-App-Image-2026-09-02-at-19-25-50-(3).webp",
+            "https://i.postimg.cc/0ychT06K/Whats-App-Image-2026-09-02-at-19-25-50-(4).webp"
           ].map((url, i) => (
             <div key={i} className="w-full flex-shrink-0 aspect-[9/16] bg-[#F3E1D5] rounded-2xl overflow-hidden border border-[#5A2D25]/15 snap-center shadow-lg">
               <img 
