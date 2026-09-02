@@ -51,13 +51,18 @@ const handleRedirect = (url: string) => {
   }
 
   const search = window.location.search;
-  if (search) {
+  if (search && search.trim() !== '') {
+    const cleanSearch = search.startsWith('?') ? search.slice(1) : search;
     const separator = url.includes('?') ? '&' : '?';
-    window.location.href = url + separator + search.substring(1);
+    window.location.href = `${url}${separator}${cleanSearch}`;
   } else {
     window.location.href = url;
   }
 };
+
+if (typeof window !== 'undefined') {
+  (window as unknown as { handleRedirect: typeof handleRedirect }).handleRedirect = handleRedirect;
+}
 
 const Navbar = () => (
   <nav className="fixed top-0 left-0 right-0 z-50 bg-[#3A1F1A]/95 backdrop-blur-sm border-b border-[#5A2D25] shadow-md">
@@ -968,6 +973,22 @@ const Footer = () => (
 );
 
 export default function App() {
+  useEffect(() => {
+    const handleGlobalLinkClick = (e: MouseEvent) => {
+      const target = (e.target as HTMLElement)?.closest('a');
+      if (target && target.href) {
+        const rawHref = target.getAttribute('href');
+        if (rawHref && !rawHref.startsWith('#') && !rawHref.startsWith('javascript:')) {
+          e.preventDefault();
+          handleRedirect(target.href);
+        }
+      }
+    };
+
+    document.addEventListener('click', handleGlobalLinkClick);
+    return () => document.removeEventListener('click', handleGlobalLinkClick);
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#3A1F1A] font-sans antialiased selection:bg-[#C93F5C]/30 selection:text-white">
       <Navbar />
