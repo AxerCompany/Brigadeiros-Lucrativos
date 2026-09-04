@@ -890,8 +890,8 @@ const Expert = () => {
               {/* Main Image Frame */}
               <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-[#F3E1D5] max-w-[280px] md:max-w-xs bg-[#F3E1D5]">
                 <img 
-                  src="https://i.postimg.cc/Z55kXwFY/Chat-GPT-Image-18-de-jul-de-2026-11-00-22.webp" 
-                  alt="Laura - Criadora do Brigadeiros Lucrativos" 
+                  src="https://i.postimg.cc/vTKyp7jn/Chat-GPT-Image-4-de-set-de-2026-11-30-27.webp" 
+                  alt="Maria - Criadora do Brigadeiros Lucrativos" 
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
                 />
@@ -910,7 +910,7 @@ const Expert = () => {
               Quem te guia nessa jornada
             </span>
             <h2 className="text-3xl md:text-4xl font-black text-[#3A1F1A] leading-tight mb-6">
-              Oi, eu sou a Laura.
+              Oi, eu sou a Maria.
             </h2>
             
             <div className="space-y-4 text-[#211412] text-sm md:text-base leading-relaxed font-medium">
