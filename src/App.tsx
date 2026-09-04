@@ -64,21 +64,6 @@ if (typeof window !== 'undefined') {
   (window as unknown as { handleRedirect: typeof handleRedirect }).handleRedirect = handleRedirect;
 }
 
-const Navbar = () => (
-  <nav className="fixed top-0 left-0 right-0 z-50 bg-[#3A1F1A]/95 backdrop-blur-sm border-b border-[#5A2D25] shadow-md">
-    <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-      <div className="flex items-center gap-2">
-        <span className="font-black text-xl tracking-tight uppercase text-white">Brigadeiro<span className="text-[#C93F5C]"> Lucrativo</span></span>
-      </div>
-      <button 
-        onClick={() => handleRedirect('#pricing')}
-        className="bg-[#C93F5C] hover:bg-[#A92F49] text-white font-bold text-[10px] py-2 px-5 rounded-full uppercase tracking-wider transition-all duration-300 shadow-sm cursor-pointer"
-      >
-        Acessar
-      </button>
-    </div>
-  </nav>
-);
 const Hero = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
@@ -132,16 +117,16 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="pt-20 md:pt-24 pb-12 md:pb-16 bg-[#3A1F1A] text-white">
-      <div className="max-w-4xl mx-auto px-6 text-center">
-        <div className="inline-block bg-[#C93F5C]/20 text-[#F3E1D5] border border-[#C93F5C]/40 px-6 py-2 rounded-2xl text-[10px] md:text-xs font-bold uppercase tracking-widest mb-4">
-          OPORTUNIDADE ÚNICA DE<br />RENDA EXTRA NA CONFEITARIA
+    <section className="pt-8 sm:pt-10 md:pt-14 pb-12 md:pb-16 bg-[#3A1F1A] text-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+        <div className="inline-flex items-center justify-center bg-[#C93F5C]/20 text-[#F3E1D5] border border-[#C93F5C]/40 px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-wider mb-4 sm:mb-5">
+          Oportunidade única de renda extra na confeitaria
         </div>
-        <h1 className="text-2xl md:text-4xl font-extrabold leading-tight md:leading-[1.15] tracking-tight mb-4 md:mb-5 text-white">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-black leading-tight sm:leading-snug md:leading-[1.2] tracking-tight mb-4 sm:mb-5 text-white max-w-3xl mx-auto text-balance">
           Ganhe até <span className="text-[#C98A3D] font-black">R$ 500 por semana</span> vendendo brigadeiros gourmet deliciosos — mesmo começando do zero.
         </h1>
         
-        <p className="text-[#F3E1D5]/90 text-xs md:text-base font-medium max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed">
+        <p className="text-[#F3E1D5]/90 text-xs sm:text-sm md:text-base font-medium max-w-xl md:max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed text-balance">
           Assista ao vídeo abaixo e descubra como o aplicativo mostra quais receitas de brigadeiros preparar, quanto cobrar e como você pode ter um negócio lucrativo.
         </p>
 
@@ -999,7 +984,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#3A1F1A] font-sans antialiased selection:bg-[#C93F5C]/30 selection:text-white">
-      <Navbar />
       <Hero />
       <HowItWorks />
       <Results />
