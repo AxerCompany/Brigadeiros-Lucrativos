@@ -152,23 +152,31 @@ const Hero = () => {
           {/* Pre-buffered Vimeo player embedded in the DOM from page load without loop */}
           <iframe
             ref={iframeRef}
-            src="https://player.vimeo.com/video/1203818546?h=0&badge=0&autopause=0&player_id=0&app_id=58479&api=1&loop=0&title=0&byline=0&portrait=0"
+            src="https://player.vimeo.com/video/1224002051?badge=0&autopause=0&player_id=0&app_id=58479&api=1&loop=0&title=0&byline=0&portrait=0"
             className="absolute inset-0 w-full h-full"
             allow="autoplay; fullscreen; picture-in-picture"
             title="Mini VSL"
             loading="eager"
           ></iframe>
 
-          {/* Transparent Cover Overlay: sits over the preloaded player and fades out on-click */}
+          {/* Cover Overlay: displays the requested cover image and fades out on-click */}
           <div 
-            className={`absolute inset-0 transition-all duration-500 bg-black/10 flex flex-col items-center justify-center gap-4 ${
+            className={`absolute inset-0 transition-all duration-500 flex flex-col items-center justify-center gap-4 ${
               isPlaying ? "opacity-0 pointer-events-none" : "opacity-100 z-10"
             }`}
           >
-            <div className="w-16 h-16 bg-[#C93F5C] hover:bg-[#A92F49] text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+            <img 
+              src="https://i.postimg.cc/sgwbk4BV/Whats-App-Image-2026-09-02-at-19-25-47.webp" 
+              alt="Capa do vídeo" 
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="eager"
+              referrerPolicy="no-referrer"
+            />
+            <div className="absolute inset-0 bg-black/25 transition-opacity group-hover:bg-black/15" />
+            <div className="relative z-10 w-16 h-16 bg-[#C93F5C] hover:bg-[#A92F49] text-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
               <Play className="fill-current w-6 h-6 ml-1" />
             </div>
-            <div className="bg-[#C93F5C] text-white px-5 py-2 rounded-full text-xs font-bold shadow-md uppercase tracking-wider">
+            <div className="relative z-10 bg-[#C93F5C] text-white px-5 py-2 rounded-full text-xs font-bold shadow-md uppercase tracking-wider">
               Clique para assistir
             </div>
           </div>
