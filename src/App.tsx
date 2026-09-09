@@ -192,16 +192,16 @@ const HowItWorks = () => (
           },
           { 
             step: "02", 
-            title: "💰 CONTROLE CUSTOS E PREÇOS", 
-            desc: "O aplicativo ajuda você a calcular o custo dos ingredientes e da embalagem, além de sugerir um preço de venda.\n\nAssim, você entende quanto cobrar e quanto pode lucrar.", 
+            title: "💰 QUANTO COBRAR", 
+            desc: "Descubra quanto cobrar antes de fazer os brigadeiros, mantendo sempre seu lucro garantido.\n\nUma calculadora feita para confeiteiras, para garantir que sempre vai lucrar.", 
             icon: Calculator,
             color: "#C98A3D"
           },
           { 
             step: "03", 
-            title: "📢 DIVULGUE E VENDA TODOS OS DIAS", 
-            desc: "O app gera textos e chamadas prontas para você divulgar no WhatsApp e no Instagram.\n\nVocê posta, recebe os pedidos e começa a vender com mais facilidade.", 
-            icon: ArrowUpRight,
+            title: "📱 VENDAS E DIVULGAÇÃO", 
+            desc: "Receba textos prontos para divulgar seus brigadeiros no WhatsApp, Instagram e status.\n\nVocê posta, recebe os pedidos e começa a vender com mais facilidade.", 
+            icon: Smartphone,
             color: "#C93F5C"
           },
         ].map((item, i) => (
@@ -351,27 +351,27 @@ const AppTechnology = () => {
               color: "#C98A3D"
             },
             { 
-              title: "💰 CALCULADORAS", 
-              desc: "Calcule custo, preço, lucro, caixas, encomendas e metas sem precisar fazer contas no achismo.", 
+              title: "💰 QUANTO COBRAR", 
+              desc: "Descubra quanto cobrar antes de fazer os brigadeiros, mantendo sempre seu lucro garantido, uma calculadora feita para confeiteiras, para garantir que sempre vai lucrar.", 
               icon: Calculator,
-              color: "#C93F5C"
-            },
-            { 
-              title: "🛒 LISTA DE COMPRAS", 
-              desc: "Saiba exatamente o que comprar e em quais quantidades para produzir sem desperdício.", 
-              icon: ShoppingBag,
-              color: "#C98A3D"
-            },
-            { 
-              title: "🎁 KITS E CAIXAS", 
-              desc: "Veja formatos prontos para montar kits e caixas que aumentam o valor de cada pedido.", 
-              icon: Gift,
               color: "#C93F5C"
             },
             { 
               title: "📱 VENDAS E DIVULGAÇÃO", 
               desc: "Receba textos prontos para divulgar seus brigadeiros no WhatsApp, Instagram e status.", 
               icon: Smartphone,
+              color: "#C98A3D"
+            },
+            { 
+              title: "🛒 LISTA DE COMPRAS", 
+              desc: "Saiba exatamente o que comprar e em quais quantidades para produzir sem desperdício.", 
+              icon: ShoppingBag,
+              color: "#C93F5C"
+            },
+            { 
+              title: "🎁 KITS E CAIXAS", 
+              desc: "Veja formatos prontos para montar kits e caixas que aumentam o valor de cada pedido.", 
+              icon: Gift,
               color: "#C98A3D"
             },
             { 
