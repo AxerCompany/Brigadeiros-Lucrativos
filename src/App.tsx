@@ -123,7 +123,7 @@ const Hero = () => {
           Oportunidade única de renda extra na confeitaria
         </div>
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-black leading-tight sm:leading-snug md:leading-[1.2] tracking-tight mb-4 sm:mb-5 text-white max-w-3xl mx-auto text-balance">
-          Ganhe até <span className="text-[#C98A3D] font-black">R$ 500 por semana</span> vendendo brigadeiros gourmet deliciosos — mesmo começando do zero.
+          Ganhe até <span className="text-[#C98A3D] font-black">R$ 700 por semana</span> vendendo brigadeiros gourmet deliciosos — mesmo começando do zero.
         </h1>
         
         <p className="text-[#F3E1D5]/90 text-xs sm:text-sm md:text-base font-medium max-w-xl md:max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed text-balance">
@@ -631,7 +631,7 @@ const WhatYouGet = () => (
                 </div>
                 
                 <h3 className="text-2xl md:text-3xl font-extrabold mb-4 leading-tight text-[#3A1F1A]">
-                  FATURANDO SEUS PRIMEIROS R$ 500<br />COM BRIGADEIROS ESTA SEMANA
+                  FATURANDO SEUS PRIMEIROS R$ 700<br />COM BRIGADEIROS ESTA SEMANA
                 </h3>
                 
                 <p className="text-[#211412] text-sm md:text-base mb-8 leading-relaxed max-w-xl mx-auto">
@@ -724,8 +724,8 @@ const Pricing = () => {
             <p className="text-[#F3E1D5]/50 line-through text-lg mb-1">DE R$ 197,00</p>
             <div className="flex items-start justify-center gap-1">
               <span className="text-2xl font-black italic mt-2 text-white">R$</span>
-              <span className="text-7xl font-black italic tracking-tighter text-[#C98A3D]">19</span>
-              <span className="text-2xl font-black italic mt-2 text-white">,90</span>
+              <span className="text-7xl font-black italic tracking-tighter text-[#C98A3D]">27</span>
+              <span className="text-2xl font-black italic mt-2 text-white">,00</span>
             </div>
           </div>
 
@@ -738,7 +738,7 @@ const Pricing = () => {
               "precificação certa e automática",
               "mensagens prontas para divulgar no WhatsApp, Instagram",
               "Bônus: como ter clientes que compram toda semana",
-              "Bônus: como faturar os primeiros R$ 500 na semana"
+              "Bônus: como faturar os primeiros R$ 700 na semana"
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3">
                 <div className="w-4 h-4 rounded-full bg-[#3A1F1A] flex items-center justify-center shrink-0">
